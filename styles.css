@@ -1,0 +1,167 @@
+/*styles for my new website*/
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+ }
+body {
+}
+
+.active{
+    color: #f00;
+}
+.header  {
+    margin-bottom: 20px;
+}
+
+.home{
+    background: beige ;
+}
+
+.about{
+    background: lightyellow ;
+}
+.center {
+    text-align: center;
+}
+header {
+/*    margin-bottom: 20px;*/
+    background: orange; 
+    
+    overflow: hidden;
+}
+.inner-header{
+    width: 940px;
+    margin: 20px auto;
+   
+}
+#logo{
+    width: 150px;
+    height: 100px;
+    
+    float: left;
+}
+nav ul{
+    float: right;
+    margin-top: 20px;
+    
+}
+nav li {
+    float: left;
+    margin-left:15px;
+    list-style-type: none;
+}
+#wrapper {
+ clear: both;
+    width: 940px;
+    margin: 0 auto;
+}
+main{
+    width:580px;
+    float: left;
+    
+}
+aside{
+/*    height: 400px;*/
+    width: 350px;
+    float: right;
+    background:lightblue;
+}
+
+footer{
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px dotted tan;
+    clear: both;
+}
+footer li {
+float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+blockquote{
+    font-size: 1.4em;
+    margin: 20px 100px 20px 100px;
+}
+
+.home h1 {
+    font-size: 1.4em ;
+    margin: 20px 100px 20px 100px;
+    margin-bottom: 12px;
+}
+h1 {
+  font-size: 2em ;
+    font-weight: 200;
+    margin-bottom: 12px;
+}
+
+/*  css of the form */
+
+form {
+         width:580px;
+        background: skyblue;
+            
+        }
+        input {
+            background: lightyellow;
+            margin-bottom: 10px;
+            margin-bottom: 20px;
+        }
+textarea{
+    background: lightyellow;
+    
+}
+        input[type=text],
+        input[type=email],
+        input[type=tel],
+        textarea  {
+            width:100%;    
+            height:30px;
+        }
+        
+        textarea {
+            height:120px;
+            margin-bottom:20px;
+        }
+        
+        fieldset {
+            color:black;
+            padding:10px 15px 10px 10px; 
+/*            background:beige;*/
+        }
+
+        label {
+            display:block;
+            margin-bottom:5px;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        
+        .box {
+            width:600px;
+            margin:20px auto;
+            background:beige;
+            padding:20px;
+            border:1px solid green;
+        }
+        
+        select {
+            margin-bottom: 10px;
+        }
+        
+        span {
+            display:block;
+            color:red;
+            font-style:italic;
+/*            margin-bottom:10px;*/
+        }
+        
